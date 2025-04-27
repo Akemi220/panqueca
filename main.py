@@ -11,4 +11,4 @@ async def root():
 # 127.0.0.1:8000/teste
 @app.get("/teste")
 async def funcaoteste():
-    return{"teste": True, "num_aleatorio": random.ranint(0, 1000)}
+    return{"teste": True, "num_aleatorio": random.ranint(0, 100)}
